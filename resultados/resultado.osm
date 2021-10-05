@@ -1,0 +1,336 @@
+OS:Material,
+  {7311a74e-33cf-47e9-a28c-a9a6c74f4083}, !- Handle
+  MAT-CC05 4 HW CONCRETE,                 !- Name
+  Rough,                                  !- Roughness
+  0.1016,                                 !- Thickness {m}
+  1.311,                                  !- Conductivity {W/m-K}
+  2240,                                   !- Density {kg/m3}
+  836.800000000001,                       !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.85,                                   !- Solar Absorptance
+  0.85;                                   !- Visible Absorptance
+OS:Material,
+  {f599e234-5bef-4b8b-a29e-b0e66ba90d1c}, !- Handle
+  1IN Stucco,                             !- Name
+  Smooth,                                 !- Roughness
+  0.0253,                                 !- Thickness {m}
+  0.691799999999999,                      !- Conductivity {W/m-K}
+  1858,                                   !- Density {kg/m3}
+  836.999999999999,                       !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.92,                                   !- Solar Absorptance
+  0.92;                                   !- Visible Absorptance
+OS:Material,
+  {86ce4850-8b71-4fc3-8156-58e01dd0d672}, !- Handle
+  8IN Concrete HW,                        !- Name
+  MediumRough,                            !- Roughness
+  0.2033,                                 !- Thickness {m}
+  1.72959999999999,                       !- Conductivity {W/m-K}
+  2242.99999999999,                       !- Density {kg/m3}
+  836.999999999999,                       !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.65,                                   !- Solar Absorptance
+  0.65;                                   !- Visible Absorptance
+OS:Material,
+  {139997b3-f812-4db0-bf69-d7f13ed976c1}, !- Handle
+  Wall Insulation [31],                   !- Name
+  MediumRough,                            !- Roughness
+  0.0337000000000001,                     !- Thickness {m}
+  0.0432,                                 !- Conductivity {W/m-K}
+  91,                                     !- Density {kg/m3}
+  836.999999999999,                       !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.5,                                    !- Solar Absorptance
+  0.5;                                    !- Visible Absorptance
+OS:Material,
+  {adfa9abe-33e8-4914-a062-5f8dacc4064e}, !- Handle
+  1/2IN Gypsum,                           !- Name
+  Smooth,                                 !- Roughness
+  0.0127,                                 !- Thickness {m}
+  0.16,                                   !- Conductivity {W/m-K}
+  784.9,                                  !- Density {kg/m3}
+  830.000000000001,                       !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.4,                                    !- Solar Absorptance
+  0.4;                                    !- Visible Absorptance
+OS:Material,
+  {637f69c7-a2cd-4b1e-b4e9-15cbad7076da}, !- Handle
+  Roof Membrane,                          !- Name
+  VeryRough,                              !- Roughness
+  0.0095,                                 !- Thickness {m}
+  0.16,                                   !- Conductivity {W/m-K}
+  1121.29,                                !- Density {kg/m3}
+  1460,                                   !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+OS:Material,
+  {f27f75a0-f278-4334-bb8d-02dc483d51cb}, !- Handle
+  Roof Insulation [18],                   !- Name
+  MediumRough,                            !- Roughness
+  0.1693,                                 !- Thickness {m}
+  0.049,                                  !- Conductivity {W/m-K}
+  265,                                    !- Density {kg/m3}
+  836.800000000001,                       !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+OS:Material,
+  {50421cc9-2708-4aab-9ca0-83f0f97fc06a}, !- Handle
+  Metal Decking,                          !- Name
+  MediumSmooth,                           !- Roughness
+  0.0015,                                 !- Thickness {m}
+  45.006,                                 !- Conductivity {W/m-K}
+  7680,                                   !- Density {kg/m3}
+  418.4,                                  !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.6,                                    !- Solar Absorptance
+  0.6;                                    !- Visible Absorptance
+OS:Material,
+  {f35e4ce9-d5ea-4f23-b69d-7ba4ccb2817f}, !- Handle
+  F16 Acoustic tile,                      !- Name
+  MediumSmooth,                           !- Roughness
+  0.0191,                                 !- Thickness {m}
+  0.06,                                   !- Conductivity {W/m-K}
+  368,                                    !- Density {kg/m3}
+  590.000000000002,                       !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.3,                                    !- Solar Absorptance
+  0.3;                                    !- Visible Absorptance
+OS:Material,
+  {0ed2a254-f2fa-403e-8ba1-79175fd0ed3d}, !- Handle
+  M11 100mm lightweight concrete,         !- Name
+  MediumRough,                            !- Roughness
+  0.1016,                                 !- Thickness {m}
+  0.53,                                   !- Conductivity {W/m-K}
+  1280,                                   !- Density {kg/m3}
+  840.000000000002,                       !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.5,                                    !- Solar Absorptance
+  0.5;                                    !- Visible Absorptance
+OS:Material,
+  {8850cc38-8245-483b-8e4e-5b6f1e5b6292}, !- Handle
+  G01a 19mm gypsum board,                 !- Name
+  MediumSmooth,                           !- Roughness
+  0.019,                                  !- Thickness {m}
+  0.16,                                   !- Conductivity {W/m-K}
+  800,                                    !- Density {kg/m3}
+  1090,                                   !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.4,                                    !- Solar Absorptance
+  0.4;                                    !- Visible Absorptance
+OS:Material,
+  {e6c0a63c-155c-4168-98b4-c0a281d363a5}, !- Handle
+  F08 Metal surface,                      !- Name
+  Smooth,                                 !- Roughness
+  0.0008,                                 !- Thickness {m}
+  45.2800000000001,                       !- Conductivity {W/m-K}
+  7823.99999999999,                       !- Density {kg/m3}
+  500,                                    !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+OS:Material,
+  {8493fef8-9809-4979-a024-8dfc82421565}, !- Handle
+  I01 25mm insulation board,              !- Name
+  MediumRough,                            !- Roughness
+  0.0254,                                 !- Thickness {m}
+  0.03,                                   !- Conductivity {W/m-K}
+  43,                                     !- Density {kg/m3}
+  1210,                                   !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.6,                                    !- Solar Absorptance
+  0.6;                                    !- Visible Absorptance
+OS:Material,
+  {20dd75fb-bb93-4254-b788-10a83a075663}, !- Handle
+  G05 25mm wood,                          !- Name
+  MediumSmooth,                           !- Roughness
+  0.0254,                                 !- Thickness {m}
+  0.15,                                   !- Conductivity {W/m-K}
+  608,                                    !- Density {kg/m3}
+  1630,                                   !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.5,                                    !- Solar Absorptance
+  0.5;                                    !- Visible Absorptance
+OS:Material,
+  {15233567-5d6a-4edf-a404-3fe317404d70}, !- Handle
+  Wall Insulation [35],                   !- Name
+  MediumRough,                            !- Roughness
+  0.0452,                                 !- Thickness {m}
+  0.0432,                                 !- Conductivity {W/m-K}
+  91,                                     !- Density {kg/m3}
+  836.999999999999,                       !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.5,                                    !- Solar Absorptance
+  0.5;                                    !- Visible Absorptance
+OS:Material,
+  {d685b838-3ae4-4a0b-8303-51c9297985dd}, !- Handle
+  Roof Insulation [21],                   !- Name
+  MediumRough,                            !- Roughness
+  0.2105,                                 !- Thickness {m}
+  0.049,                                  !- Conductivity {W/m-K}
+  265,                                    !- Density {kg/m3}
+  836.800000000001,                       !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+OS:Material,
+  {86c63f48-004b-41fa-9082-ef9d67605dd6}, !- Handle
+  Wall Insulation [36],                   !- Name
+  MediumRough,                            !- Roughness
+  0.0565999999999999,                     !- Thickness {m}
+  0.0432,                                 !- Conductivity {W/m-K}
+  91,                                     !- Density {kg/m3}
+  836.999999999999,                       !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.5,                                    !- Solar Absorptance
+  0.5;                                    !- Visible Absorptance
+OS:Material,
+  {797c89e5-49d2-4929-878d-c01c2d4f65bf}, !- Handle
+  Wall Insulation [37],                   !- Name
+  MediumRough,                            !- Roughness
+  0.0680999999999999,                     !- Thickness {m}
+  0.0432,                                 !- Conductivity {W/m-K}
+  91,                                     !- Density {kg/m3}
+  836.999999999999,                       !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.5,                                    !- Solar Absorptance
+  0.5;                                    !- Visible Absorptance
+OS:Material,
+  {4a8d2e13-f63a-4207-9dda-3f2e6e1de10d}, !- Handle
+  Wall Insulation [40],                   !- Name
+  MediumRough,                            !- Roughness
+  0.0793999999999999,                     !- Thickness {m}
+  0.0432,                                 !- Conductivity {W/m-K}
+  91,                                     !- Density {kg/m3}
+  836.999999999999,                       !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.5,                                    !- Solar Absorptance
+  0.5;                                    !- Visible Absorptance
+OS:Material,
+  {ad3c59b6-6b6c-4d1d-a9e7-ef32980023e5}, !- Handle
+  Wall Insulation [42],                   !- Name
+  MediumRough,                            !- Roughness
+  0.0913999999999999,                     !- Thickness {m}
+  0.0432,                                 !- Conductivity {W/m-K}
+  91,                                     !- Density {kg/m3}
+  836.999999999999,                       !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.5,                                    !- Solar Absorptance
+  0.5;                                    !- Visible Absorptance
+OS:Material,
+  {974c10e4-1777-4808-8bac-f8c8cacb9690}, !- Handle
+  Metal Roofing,                          !- Name
+  MediumSmooth,                           !- Roughness
+  0.0015,                                 !- Thickness {m}
+  45.006,                                 !- Conductivity {W/m-K}
+  7680,                                   !- Density {kg/m3}
+  418.4,                                  !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.6,                                    !- Solar Absorptance
+  0.6;                                    !- Visible Absorptance
+OS:Material,
+  {481c1af1-c048-42f6-83eb-e22390f48e53}, !- Handle
+  Roof Insulation [25],                   !- Name
+  MediumRough,                            !- Roughness
+  0.263,                                  !- Thickness {m}
+  0.049,                                  !- Conductivity {W/m-K}
+  265,                                    !- Density {kg/m3}
+  836.800000000001,                       !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+OS:Material,
+  {8958248e-c613-47d9-811f-c2093667a433}, !- Handle
+  Wall Insulation [44],                   !- Name
+  MediumRough,                            !- Roughness
+  0.1104,                                 !- Thickness {m}
+  0.0432,                                 !- Conductivity {W/m-K}
+  91,                                     !- Density {kg/m3}
+  836.999999999999,                       !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.5,                                    !- Solar Absorptance
+  0.5;                                    !- Visible Absorptance
+OS:Material,
+  {0d28c5d8-2c41-4f8f-8c5a-3e5e258dc5b8}, !- Handle
+  Roof Insulation [26],                   !- Name
+  MediumRough,                            !- Roughness
+  0.2941,                                 !- Thickness {m}
+  0.049,                                  !- Conductivity {W/m-K}
+  265,                                    !- Density {kg/m3}
+  836.800000000001,                       !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+OS:Material,
+  {9a50596f-ffae-4104-b423-3252a0240c18}, !- Handle
+  Criptonita,                             !- Name
+  VeryRough,                              !- Roughness
+  0.1,                                    !- Thickness {m}
+  2,                                      !- Conductivity {W/m-K}
+  5000,                                   !- Density {kg/m3}
+  1000;                                   !- Specific Heat {J/kg-K}
+OS:Material,
+  {34e6534a-e675-47da-b4aa-85d295c599f1}, !- Handle
+  Adamantium,                             !- Name
+  VerySmooth,                             !- Roughness
+  0.1,                                    !- Thickness {m}
+  60,                                     !- Conductivity {W/m-K}
+  5000,                                   !- Density {kg/m3}
+  2000;                                   !- Specific Heat {J/kg-K}
+OS:Material,
+  {8eceb893-8073-44a2-9098-3f01d5bba64e}, !- Handle
+  Orodruin,                               !- Name
+  Rough,                                  !- Roughness
+  0.2,                                    !- Thickness {m}
+  20,                                     !- Conductivity {W/m-K}
+  1000,                                   !- Density {kg/m3}
+  1000;                                   !- Specific Heat {J/kg-K}
+OS:Material,
+  {a42abe10-aec5-47b2-bbac-406469b52f8a}, !- Handle
+  vibranium,                              !- Name
+  VerySmooth,                             !- Roughness
+  0.8,                                    !- Thickness {m}
+  100,                                    !- Conductivity {W/m-K}
+  10000,                                  !- Density {kg/m3}
+  10000;                                  !- Specific Heat {J/kg-K}
+OS:Material,
+  {93febfbf-6032-4b73-8118-032bd4eb4e18}, !- Handle
+  Carbonadium,                            !- Name
+  Smooth,                                 !- Roughness
+  0.1,                                    !- Thickness {m}
+  0.1,                                    !- Conductivity {W/m-K}
+  0.1,                                    !- Density {kg/m3}
+  0.1;                                    !- Specific Heat {J/kg-K}
+OS:Material,
+  {fcdbd05a-adc5-4c69-aa03-a21906155f72}, !- Handle
+  Dilustel,                               !- Name
+  Smooth,                                 !- Roughness
+  0.1,                                    !- Thickness {m}
+  0.1,                                    !- Conductivity {W/m-K}
+  0.1,                                    !- Density {kg/m3}
+  0.1;                                    !- Specific Heat {J/kg-K}
+OS:Material,
+  {4b398cd9-88c5-4953-958e-39ff713a5b05}, !- Handle
+  Feminum,                                !- Name
+  Smooth,                                 !- Roughness
+  0.1,                                    !- Thickness {m}
+  0.1,                                    !- Conductivity {W/m-K}
+  0.1,                                    !- Density {kg/m3}
+  0.1;                                    !- Specific Heat {J/kg-K}
+OS:Material,
+  {6e3f2965-73c4-42db-9d74-4c04a898c773}, !- Handle
+  Illium,                                 !- Name
+  Smooth,                                 !- Roughness
+  0.1,                                    !- Thickness {m}
+  0.1,                                    !- Conductivity {W/m-K}
+  0.1,                                    !- Density {kg/m3}
+  0.1;                                    !- Specific Heat {J/kg-K}
+OS:Material,
+  {a98f1b14-ebe7-4768-a715-e559e20b4de2}, !- Handle
+  Inertron,                               !- Name
+  Smooth,                                 !- Roughness
+  0.1,                                    !- Thickness {m}
+  0.1,                                    !- Conductivity {W/m-K}
+  0.1,                                    !- Density {kg/m3}
+  0.1;                                    !- Specific Heat {J/kg-K}
